@@ -77,6 +77,7 @@ const PolygonSwingFixed = () => {
         rotate.on('rotatestart', evt => console.log('rotate start', evt))
         rotate.on('rotating', evt => console.log('rotating', evt))
         rotate.on('rotateend', evt => console.log('rotate end', evt))
+        console.log('1111');
         // rotate.on('rotateend', evt => console.log('rotate end', evt.anchor))
     
         map.addInteraction(select)
